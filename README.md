@@ -2,6 +2,11 @@
 
 This repository contains a simple script for generating localization files for Victoria 3 using GPT-4o-mini. Initially developed for Czech localization, it can be used for other languages by specifying the desired target language.
 
+Synopsis:
+```
+usage: generate-victoria3-l10n.py [-h] --input-game-dir INPUT_GAME_DIR --language LANGUAGE --output-dir OUTPUT_DIR [--model MODEL] [--temperature TEMPERATURE]
+```
+
 ## Installation and Setup
 
 ### Create a Virtual Environment
